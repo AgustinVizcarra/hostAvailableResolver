@@ -1,0 +1,76 @@
+# -*- coding: utf-8 -*-
+import mysql.connector
+import threading
+import csv
+import datetime 
+from subprocess import Popen, PIPE
+host_status={}
+def get_target_hosts(query):
+    result = ""
+    try:
+        connection = mysql.connector.connect(host="172.19.216.92",user="C26971",password="claro123",database="cablemodem")
+        cursor = connection.cursor()
+        cursor.execute(query)
+        result = cursor.fetchall()
+        cursor.close()
+        connection.close()
+    except Exception as e:
+        print("Error: "+str(e))
+        result = str(e)+" S"+str(datetime.now().time())
+        return 0
+    if (not result):
+        # No se realizo un ingreso de información
+        print("El query ingresado no arroja informacion para la fecha "+str(datetime.datetime.now()))
+        return 1
+    else:
+        data_encoded = [[item.encode('utf-8') if isinstance(item, unicode) else item for item in row] for row in result]
+        #Remove Unnecesarys ID
+        effective_data = [row[1:] for row in data_encoded]
+        return effective_data
+def host_is_available(ip):
+    global host_status
+    if ip is not None:
+        cmd = ['ping', '-c', '1', ip]
+        process = Popen(cmd, stdout=PIPE, stderr=PIPE)
+        stdout, stderr = process.communicate()
+        host_status[ip]= "True" if process.returncode == 0 else "False"
+    else:
+        pass
+query="select * from cablemodem order by id;"
+target_hosts=get_target_hosts(query)
+### Threads
+hilos = []
+for host in target_hosts:
+    hilos.append(threading.Thread(target=host_is_available,args=(host[1],)))
+###Ejecucion de hilos
+for hilo in hilos:
+    hilo.start()
+###Recepcion de hilos
+for hilo in hilos:
+    hilo.join()
+# Una vez obtenida toda la informacion se procede a realizar el guardado
+for host in target_hosts:
+    host.append(host_status[host[1]] if host[1] is not None else "False")
+# Con la trama lista se procede a crear el CSV que servira para subir la data
+archivo_csv = "hosts_available.csv"
+with open(archivo_csv,mode="wb") as archivo:
+    writer = csv.writer(archivo,delimiter=';')
+    writer.writerows(target_hosts)
+# Finalmente se inserta la informacion a base de datos
+insercion = """
+    LOAD DATA LOCAL INFILE '{}'
+    INTO TABLE testcablemodem_resultado
+    COLUMNS TERMINATED BY ';'
+    LINES TERMINATED BY '\n'
+    (@col1,@col2,@col3,@col4,@col5,@col6)
+    SET id=NULL,mac=@col1,ip=@col2,fabricante=@col3,modelo=@col4,fecha_actualizacion=@col5,disponibilidad=@col6
+""".format(archivo_csv)
+try:
+    connection = mysql.connector.connect(host="172.19.216.92",user="C26971",password="claro123",database="cablemodem",allow_local_infile=True)
+    cursor = connection.cursor()
+    cursor.execute(insercion)
+    connection.commit()
+    connection.close()
+    print("Data ingresada a base de datos exitosamente "+str(datetime.datetime.now()))
+except Exception as e:
+    print("Error: "+str(e))

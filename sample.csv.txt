@@ -1,0 +1,100 @@
+ sU%M2;;;;;False
+" sU'%""";;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+ sU'(b;;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+ sU'-B;;;;;False
+ sU'-r;;;;;False
+ sU'/r;;Arris Interactive, L.L.C.;TG862G;2022-07-02 23:06:03;False
+ sU'9R;;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+" sU'd""";;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+ sU'GR;;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+" sU'H""";;Arris Interactive, L.L.C.;TG862G;2021-12-21 23:05:05;False
+ sU'kB;;Arris Interactive, L.L.C.;TG862G;2022-01-24 23:07:12;False
+ sU'Nr;;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+ sU'U2;;Arris Interactive, L.L.C.;TG862G;2022-01-16 23:06:25;False
+ sU'[r;;Arris Interactive, L.L.C.;TG862G;2022-01-19 23:07:17;False
+ sU( R;;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+" sU(3""";;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+ sU(3R;;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+" sU(9""";;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+" sU(=""";;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+ sU(A2;;Arris Interactive, L.L.C.;TG862G;2022-05-06 23:08:17;False
+ sU(CB;;Arris Interactive, L.L.C.;TG862G;2022-03-27 23:06:20;False
+ sU(CR;;Arris Interactive, L.L.C.;TG862G;2022-03-07 23:04:49;False
+ sU(er;;Arris Interactive, L.L.C.;TG862G;2021-12-29 23:05:39;False
+ sU(Fr;;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+ sU(HB;;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+ sU(p2;;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+ sU(rB;;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+" sU(s""";;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+ sU(Ur;;SAGEM;F@ST3686;2022-02-03 23:04:47;False
+ sU(x2;;Arris Interactive, L.L.C.;TG862G;2022-03-22 23:04:55;False
+ sU(yB;;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+ sU([R;;Arris Interactive, L.L.C.;TG862G;2022-06-12 23:08:05;False
+ sU(^b;;Arris Interactive, L.L.C.;TG862G;2021-12-21 23:05:05;False
+ sU(`B;;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+ sU({b;;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+ sU(|2;;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+ sU(~2;;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+ sU*/r;;Arris Interactive, L.L.C.;TG862G;2022-04-26 23:06:42;False
+ sU*2R;;Arris Interactive, L.L.C.;TG862G;2022-05-10 23:08:09;False
+ sU*4r;;Arris Interactive, L.L.C.;TG862G;2022-08-04 23:05:04;False
+ sU*9b;;Arris Interactive, L.L.C.;TG862G;2021-12-27 23:06:06;False
+ sU*<2;;Arris Interactive, L.L.C.;TG862G;2022-01-12 23:07:11;False
+ sU*dR;;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+ sU*fR;;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+ sU*gR;;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+ sU*lr;;Arris Interactive, L.L.C.;TG862G;2021-12-09 23:05:22;False
+ sU*NB;;;;;False
+ sU*nr;;Arris Interactive, L.L.C.;TG862G;2022-01-28 23:07:16;False
+ sU*Xr;;Arris Interactive, L.L.C.;TG862G;2022-08-01 23:05:38;False
+ sU*{b;;Arris Interactive, L.L.C.;TG862G;2022-06-09 23:08:02;False
+ sU,62;;Arris Interactive, L.L.C.;TG862G;2022-08-09 23:05:12;False
+ sUfEr;;Arris Interactive, L.L.C.;TG862G;2022-03-22 23:04:55;False
+000000000000;;SAGEM;F@ST3686;2022-09-03 23:04:54;False
+000308111c0b;;AM Communications;9360;2022-03-22 23:04:55;False
+000308111d06;;AM Communications;9360;2023-12-27 23:05:28;False
+000308111d9c;10.128.17.2;AM Communications;9360;2024-04-01 23:06:31;True
+000308111db2;;AM Communications;9360;2022-03-22 23:04:55;False
+000308111dcb;10.154.0.6;AM Communications;9360;2024-04-01 23:06:31;True
+000308111dd1;10.147.64.14;AM Communications;9360;2024-03-20 23:07:06;False
+000308111e2c;10.147.68.24;AM Communications;9360;2024-03-18 23:06:55;True
+000308111e49;10.154.28.142;AM Communications;9360;2024-04-01 23:06:31;True
+000308111e51;10.154.30.169;AM Communications;9360;2024-04-01 23:06:31;True
+000308111e6a;;AM Communications;9360;2023-02-07 23:06:57;False
+000308111e86;10.141.114.195;AM Communications;9360;2024-04-01 23:06:31;True
+000308111ea4;;AM Communications;9360;2023-02-11 23:06:04;False
+000308111eae;10.154.8.101;AM Communications;9360;2024-04-01 23:06:31;True
+000308111eb6;10.214.12.61;AM Communications;9360;2022-08-30 23:06:04;False
+000308111eb8;;AM Communications;9360;2023-05-27 23:05:43;False
+000308111edd;;AM Communications;9360;2023-01-20 23:06:08;False
+000308111ef2;;AM Communications;9360;2023-01-10 23:05:09;False
+000308111ef5;10.154.135.137;AM Communications;9360;2024-04-01 23:06:31;True
+000308111f80;10.128.22.225;AM Communications;9360;2024-04-01 23:06:31;True
+000308111f8f;;AM Communications;9360;2024-01-07 23:06:44;False
+000308111f90;;AM Communications;9360;2022-08-04 23:05:04;False
+000308111fc5;10.116.219.68;AM Communications;9360;2022-10-03 23:05:42;False
+000308111fcb;10.128.67.35;AM Communications;9360;2024-04-01 23:06:31;True
+000308111fcd;10.123.197.108;AM Communications;9360;2024-04-01 23:06:31;True
+000308112003;;AM Communications;9360;2022-10-04 23:05:29;False
+00030811201e;;AM Communications;9360;2022-07-13 23:06:09;False
+000308112032;;AM Communications;9360;2023-08-01 23:07:34;False
+0003081120a6;;AM Communications;9360;2022-09-27 23:05:40;False
+00030811215a;10.155.64.27;AM Communications;9360;2024-04-01 23:06:31;True
+0003081121da;10.154.10.220;AM Communications;9360;2024-04-01 23:06:31;True
+0003081121f3;10.157.78.84;AM Communications;9360;2022-12-04 23:05:27;False
+000308112212;10.157.78.81;AM Communications;9360;2024-04-01 23:06:31;True
+000308112264;10.147.98.48;AM Communications;9360;2024-04-01 23:06:31;True
+000308112460;;AM Communications;9360;2023-09-11 23:07:37;False
+00030811249f;;AM Communications;9360;2023-12-09 23:04:49;False
+0003081124f0;10.158.142.115;AM Communications;9360;2023-01-09 23:05:09;False
+0003081125ad;;AM Communications;9360;2022-07-05 23:05:38;False
+00030811261c;;AM Communications;9360;2022-08-06 23:05:42;False
+0003081128c1;;AM Communications;9360;2022-04-06 23:06:19;False
+0003081129e5;10.154.0.7;AM Communications;9360;2024-04-01 23:06:31;True
+000308112a00;;AM Communications;9360;2022-10-14 23:05:54;False
+000308112a0e;10.116.153.123;AM Communications;9360;2023-11-16 23:05:01;False
+000308112a28;10.149.0.89;AM Communications;9360;2024-04-01 23:06:31;True
+000308112a64;10.139.192.133;AM Communications;9360;2024-04-01 23:06:31;True
+000308112ab0;;AM Communications;9360;2023-09-12 23:07:18;False
+000308112ad7;10.147.93.130;AM Communications;9360;2024-04-01 23:06:31;True
+000308112af2;;AM Communications;9360;2022-03-22 23:04:55;False
